@@ -14,3 +14,7 @@
     /* 4 final */
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
+
+.card0 {
+    color: limegreen;
+}
