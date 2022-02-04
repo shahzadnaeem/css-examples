@@ -12,13 +12,30 @@
 
     <script src="basic-grid.js" defer></script>
   </head>
-  <body>   
+  <body>
 
-    <h1>Auto fill - Card-N cards added via Javascript</h1>
+    <section class="intro">
+      <p>
+        This is a simple <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid">CSS grid</a>
+        that will auto size its content based on the available space.
+      </p>
+
+      <p class="sample">
+        display: grid;
+        gap: 1rem;
+      
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+      </p>
+
+      <p>
+        Card <b class="card0">0</b> is in the original HTML. All others are added using some javascript.
+      </p>
+    </section>
 
     <section class="basic-grid">
         <div class="card card0">0</div>
-        <!-- Others are auto populated -->
+        <!-- Others are auto populated via javascript -->
     </section>
 
   </body>

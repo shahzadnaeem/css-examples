@@ -13,8 +13,44 @@
 
     /* 4 final */
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid greenyellow;
 }
 
 .card0 {
     color: limegreen;
+}
+
+.cardN {
+    color: lightpink;
+}
+
+.intro a {
+    color: lightskyblue;
+}
+
+.intro {
+    font-size: 1.5rem;
+    background-color: #353535;
+    color: lemonchiffon;
+    margin: 1rem auto;
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px lightgoldenrodyellow solid;
+}
+
+.sample {
+    white-space: pre-line;
+    overflow-y: auto;
+    font-size: 1.35rem;
+
+    font-weight: 600;
+    color: lightblue;
+    background-color: #353535;
+    margin: 0 1rem 1rem;
+    padding-left: 0.5rem;
+    border: 1px solid lightslategray;
 }
