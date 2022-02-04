@@ -1,0 +1,31 @@
+/* Custom CSS for 'blank' page */
+
+body {
+    background: lightgray;
+    color: darkgray;
+    font-family: sans-serif;
+}
+
+main {
+    background: lightblue;
+    color: darkblue;
+    margin: 0 auto;
+    width: 90%;
+    border: 1px darkblue dotted;
+}
+
+article {
+    margin: 0.5rem;
+    /* border: 1px lightcyan double; */
+}
+
+a {
+    font-style: oblique;
+    text-decoration: none;
+    color: blue;
+}
+
+h3 {
+    margin-bottom: 2px;
+    color: rgb(73, 2, 73);
+}
