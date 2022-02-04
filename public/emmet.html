@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSCode Emmet HTML</title>
+
+    <link rel="stylesheet" href="emmet.css">
+</head>
+
+<body>
+    <h1>Emmet Code Snippet in VS Code</h1>
+
+    <a href="http://https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a>
+
+    <main>
+        <article class="intro">
+            <p>
+                Create an unordered list with three empty elements:
+            </p>
+            <section class="sample">
+                ul>li*3
+
+                <section class="output">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+
+        <article class="intro">
+            <p>
+                Create this whole entry with the above example!
+            </p>
+
+            <section class="sample">
+                article.intro>p+section.sample>section.output>ul>li*3
+
+                <section class="output">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+
+        <article class="intro">
+            <p>
+                Create whole example above with Lorem Ipsum text of 10 words each for each list item
+            </p>
+
+            <section class="sample">
+                article.intro>p+section.sample>section.output>ul>li*3>lorem10
+
+                <section class="output">
+                    <ul>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, obcaecati.</li>
+                        <li>Quasi laboriosam inventore reiciendis quos, optio voluptatibus quis provident aut.</li>
+                        <li>Nobis sint quidem minus doloribus cumque ipsam dolor perspiciatis! Libero.</li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+
+        <article class="intro">
+            <p>
+                Add a link to each list item above with 3 words of Lorem Ipsum text
+            </p>
+            <section class="sample">
+                article.intro>p+section.sample>section.output>ul>li*3>a:link>lorem3
+
+                <section class="output">
+                    <ul>
+                        <li><a href="http://">Lorem, ipsum dolor.</a></li>
+                        <li><a href="http://">Facilis, qui sit!</a></li>
+                        <li><a href="http://">Saepe, qui quod?</a></li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+
+        <article class="intro">
+            <p>
+                Add numbered text to each list item
+            </p>
+            <section class="sample">
+                article.intro>p+section.sample>section.output>ul>li*3>{Item $}
+
+                <section class="output">
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </section>
+            </section>
+        </article>
+        
+    </main>
+</body>
+
+</html>
