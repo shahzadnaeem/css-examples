@@ -21,41 +21,41 @@ const populateCode = exNum => {
 
 const ex1 = {
     html: `
-        <h1>Hello</h1>
-        <p>This is an example paragraph</p>
-        <p>This is another</p>
-        `,
+    <h1>Hello</h1>
+    <p>This is an example paragraph</p>
+    <p>This is another</p>
+`,
     css: `
-        .ex1 h1 {
-            color: red;
-        }
-    
-        .ex1 p {
-            color: blue;
-            font-weight: 300;
-        }
-        `,
+    .ex1 h1 {
+        color: red;
+    }
+
+    .ex1 p {
+        color: blue;
+        font-weight: 300;
+    }
+`,
     link: 'https://github.com/boolean-uk'
 };
 
 const ex2 = {
     html: `
-        <h1>Hello Again</h1>
-        <ul>
-          <li> One </li>
-          <li> Two </li>
-        </ul>
-        `,
+    <h1>Hello Again</h1>
+    <ul>
+        <li> One </li>
+        <li> Two </li>
+    </ul>
+`,
     css: `
-        .ex2 h1 {
-            color: green;
-        }
+    .ex2 h1 {
+        color: green;
+    }
     
-        .ex2 li {
-            color: firebrick;
-            font-weight: 600;
-        }
-        `,
+    .ex2 li {
+        color: firebrick;
+        font-weight: 600;
+    }
+`,
     link: 'https://github.com/boolean-uk'
 };
 

@@ -98,7 +98,6 @@ section:nth-child(2n) {
 
 section:nth-child(2n) .code-container,
 section:nth-child(2n) .tab-area button.active {
-    /* background-color: white; */
     background-color: var(--code-bg);
 }
 
@@ -152,6 +151,7 @@ section:nth-child(2n) .tab-area button.active {
     box-shadow: 0 0 20px -10px hsl(187, 97%, 24%);
     /* display: grid;
     align-items: center; */
+    padding: 0.5rem;
     background: white;
 }
 
@@ -165,7 +165,7 @@ section:nth-child(2n) .tab-area button.active {
     white-space: pre-wrap;
     display: none;
     overflow-y: scroll;
-    background-color: var(--light-gray-blue);
+    background-color: var(--code-bg);
     margin-bottom: 1rem;
     padding: 1rem;
     border: 1px solid var(--blue);
@@ -189,7 +189,7 @@ section:nth-child(2n) .tab-area button.active {
     border: 1px solid var(--blue);
     border-bottom: none;
     z-index: 1;
-    background: var(--light-gray-blue);
+    background-color: var(--code-bg);
 }
 
 .section-container {
@@ -226,7 +226,7 @@ section:nth-child(2n) .tab-area button.active {
     }
 
     .section-container {
-        /* padding: 8rem 4rem; */
+        padding: 2rem 1rem;
     }
 
     .meta {
