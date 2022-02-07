@@ -22,6 +22,9 @@
             </p>
             <section class="sample">
                 ul>li*3
+                <p class="explanation">
+                    <b>></b> indicates the following element is a child
+                </p>
 
                 <section class="output">
                     <ul>
@@ -35,11 +38,14 @@
 
         <article class="intro">
             <p>
-                Create this whole entry with the above example!
+                Create this whole entry with the above example
             </p>
 
             <section class="sample">
-                article.intro>p+section.sample>section.output>ul>li*3
+                article.intro>p+section.sample>section.explanation+section.output>ul>li*3
+                <section class="explanation">
+                    an article with <b>class="intro"</b> containing a paragraph, then a section with <b>class="sample"</b> containing a section with <b>class="explanation"</b>, then another section with <b>class="output" containing the unordered list described above</b>
+                </section>
 
                 <section class="output">
                     <ul>
@@ -53,7 +59,7 @@
 
         <article class="intro">
             <p>
-                Create whole example above with Lorem Ipsum text of 10 words each for each list item
+                Create whole example above with Lorem Ipsum text of 10 words each for each list item - no explanation in this case
             </p>
 
             <section class="sample">
