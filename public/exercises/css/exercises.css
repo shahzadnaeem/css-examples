@@ -6,6 +6,8 @@
 
     --section-bg2: rgb(161, 196, 207);
 
+    --code-bg: rgb(240, 241, 219);
+
     --coral: hsl(23, 83%, 82%);
     --coral--b: hsl(23, 99%, 75%);
     --pink: hsl(335, 52%, 92%);
@@ -32,7 +34,6 @@ body {
     font-family: sans-serif;
     /* font-size: 1.4rem; */
     margin: 0 auto;
-    padding: 0;
     width: 90%;
 }
 
@@ -97,7 +98,8 @@ section:nth-child(2n) {
 
 section:nth-child(2n) .code-container,
 section:nth-child(2n) .tab-area button.active {
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--code-bg);
 }
 
 .section-title {
@@ -109,7 +111,7 @@ section:nth-child(2n) .tab-area button.active {
 .section-container {
     max-width: var(--pageMax);
     margin: 0 auto;
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
 }
 
 .taglist {
@@ -134,16 +136,6 @@ section:nth-child(2n) .tab-area button.active {
     margin-bottom: 1rem;
 }
 
-.support-area {
-    display: grid;
-    justify-content: flex-end;
-}
-
-.support-area span {
-    justify-self: flex-end;
-    margin-bottom: 0.25rem;
-}
-
 .ex-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -158,8 +150,8 @@ section:nth-child(2n) .tab-area button.active {
     width: 100%;
     z-index: 2;
     box-shadow: 0 0 20px -10px hsl(187, 97%, 24%);
-    display: grid;
-    align-items: center;
+    /* display: grid;
+    align-items: center; */
     background: white;
 }
 
@@ -178,7 +170,6 @@ section:nth-child(2n) .tab-area button.active {
     padding: 1rem;
     border: 1px solid var(--blue);
     margin-top: -1px;
-    font-size: 1.35rem;
 }
 
 .tab-area {
@@ -207,8 +198,7 @@ section:nth-child(2n) .tab-area button.active {
     padding: 4rem 2rem;
 }
 
-
-
+.github-link,
 .codepen-link {
     color: hsl(187, 83%, 37%);
     font-style: italic;
@@ -236,7 +226,7 @@ section:nth-child(2n) .tab-area button.active {
     }
 
     .section-container {
-        padding: 8rem 4rem;
+        /* padding: 8rem 4rem; */
     }
 
     .meta {
@@ -265,11 +255,6 @@ section:nth-child(2n) .tab-area button.active {
     .section-title code {
         margin-left: 0;
         margin-top: 1rem;
-    }
-
-    .support-area {
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
     }
 
     .code-area {
