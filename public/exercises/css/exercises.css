@@ -37,10 +37,7 @@ body {
     width: 90%;
 }
 
-style,
-code {
-    font-family: "Inconsolata", monospace;
-}
+/* Some colours */
 
 .coral {
     background-color: var(--coral);
@@ -76,6 +73,11 @@ code {
     background-color: white;
 }
 
+.offwhite {
+    background-color: whitesmoke;
+    border: 1px double lightgrey;
+}
+
 
 .intro-header,
 .intro-footer {
@@ -84,12 +86,28 @@ code {
     margin: 0 auto;
 }
 
+.solution {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 1px double lightslategray;
+    padding: 0.5rem;
+}
+
 .intro-footer a,
 .intro-header a {
     font-style: oblique;
     font-weight: 500;
     text-decoration: none;
     color: var(--page-link);
+}
+
+/* CSS specific to exercises.html experiment :) */
+
+style,
+code {
+    font-family: "Inconsolata", monospace;
 }
 
 section:nth-child(2n) {
