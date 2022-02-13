@@ -47,7 +47,10 @@ div.header div:nth-child(odd) {
     grid-area: main;
     display: grid;
     grid-template-columns:
-        repeat(auto-fit, minmax(200px, 1fr));
+        /* Two column */
+        repeat( 2, minmax(200px, 1fr) );
+        /* Auto column */
+        /* repeat(auto-fit, minmax(200px, 1fr)); */
 }
 
 .right-menu {
